@@ -1,0 +1,637 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fnil\fcharset0 Georgia;\f1\fnil\fcharset0 Menlo-Regular;\f2\fmodern\fcharset0 Courier;
+\f3\fnil\fcharset0 Georgia-Bold;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red255\green255\blue255;\red0\green0\blue0;
+\red246\green246\blue246;}
+{\*\expandedcolortbl;;\cssrgb\c20000\c20000\c20000;\cssrgb\c100000\c100000\c100000;\csgray\c0;
+\cssrgb\c97255\c97255\c97255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid1\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid101\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid201\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid301\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid401\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid501\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid601\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl300\sa66\partightenfactor0
+\ls1\ilvl0
+\f0\fs26\fsmilli13200 \cf2 \cb3 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Let's start by figuring out how many dinosaurs we have. Count the number of dinosaurs.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf4 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 SELECT COUNT(*) FROM dinos;\
+	331
+\f0\fs26\fsmilli13200 \cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl300\sa66\partightenfactor0
+\ls2\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 We want to open up our own version of Jurassic Park, but this time only with dinosaurs who are actually from the Jurassic period. Find all the dinosaurs from the Jurassic\'a0
+\f2\fs28 \cb5 period
+\f0\fs26\fsmilli13200 \cb3 .\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf4 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 SELECT name FROM dinos WHERE period = 'Jurassic';\
+Yuanmousaurus\
+ Yinlong\
+ Yingshanosaurus\
+ Yimenosaurus\
+ Yangchuanosaurus\
+ Yandusaurus\
+ Vulcanodon\
+ Tuojiangosaurus\
+ Torvosaurus\
+ Yunnanosaurus\
+ Sinraptor\
+ Stegosaurus\
+ Seismosaurus\
+ Segisaurus\
+ Scutellosaurus\
+ Scelidosaurus\
+ Saurophaganax\
+ Sarcosaurus\
+ Shunosaurus\
+ Rhoetosaurus\
+ Poekilopleuron\
+ Podokesaurus\
+ Piatnitzkysaurus\
+ Proceratosaurus\
+ Patagosaurus\
+ Pantydraco\
+ Datousaurus\
+ Ornitholestes\
+ Omeisaurus\
+ Nqwebasaurus\
+ Monolophosaurus\
+ Othnielia\
+: Vulcanodon\
+ Tuojiangosaurus\
+ Torvosaurus\
+ Yunnanosaurus\
+ Sinraptor\
+ Stegosaurus\
+ Seismosaurus\
+ Segisaurus\
+ Scutellosaurus\
+ Scelidosaurus\
+ Saurophaganax\
+ Sarcosaurus\
+: Vulcanodon\
+ Tuojiangosaurus\
+ Torvosaurus\
+ Yunnanosaurus\
+ Sinraptor\
+: Vulcanodon\
+ Tuojiangosaurus\
+ Torvosaurus\
+ Yunnanosaurus\
+ Sinraptor\
+ Stegosaurus\
+ Seismosaurus\
+: Vulcanodon\
+ Tuojiangosaurus\
+ Torvosaurus\
+ Yunnanosaurus\
+ Sinraptor\
+ Stegosaurus\
+ Seismosaurus\
+ Segisaurus\
+ Scutellosaurus\
+ Scelidosaurus\
+ Saurophaganax\
+ Sarcosaurus\
+ Shunosaurus\
+ Rhoetosaurus\
+ Poekilopleuron\
+ Podokesaurus\
+: Vulcanodon\
+ Tuojiangosaurus\
+ Torvosaurus\
+ Yunnanosaurus\
+ Sinraptor\
+ Stegosaurus\
+ Seismosaurus\
+ Segisaurus\
+ Scutellosaurus\
+ Scelidosaurus\
+ Saurophaganax\
+ Sarcosaurus\
+ Shunosaurus\
+ Rhoetosaurus\
+ Poekilopleuron\
+ Podokesaurus\
+ Piatnitzkysaurus\
+ Proceratosaurus\
+ Patagosaurus\
+ Pantydraco\
+ Datousaurus\
+ Ornitholestes\
+ Omeisaurus\
+ Nqwebasaurus\
+ Monolophosaurus\
+ Othnielia\
+ Megalosaurus\
+ Massospondylus\
+ Marshosaurus\
+ Mamenchisaurus\
+ Lufengosaurus\
+ Lophostropheus\
+ Lexovisaurus\
+ Metriacanthosaurus\
+ Lesothosaurus\
+ Kentrosaurus\
+ Juravenator\
+ Jingshanosaurus\
+ Janenschia\
+ Huayangosaurus\
+ Heterodontosaurus\
+ Kotasaurus\
+ Guanlong\
+ Giraffatitan\
+ Gasosaurus\
+ Gargoyleosaurus\
+ Eustreptospondylus\
+ Europasaurus\
+ Haplocanthosaurus\
+ Emausaurus\
+ Euhelopus\
+ Elaphrosaurus\
+ Dubreuillosaurus\
+ Dryosaurus\
+ Diplodocus\
+ Dilophosaurus\
+ Dicraeosaurus\
+ Cryolophosaurus\
+ Compsognathus\
+ Coelurus\
+ Chungkingosaurus\
+ Chirostenotes\
+ Chinshakiangosaurus\
+ Chaoyangsaurus\
+ Dacentrurus\
+ Cetiosaurus\
+ Cetiosauriscus\
+ Ceratosaurus\
+ Chialingosaurus\
+ Brachytrachelopan\
+ Brachiosaurus\
+ Bellusaurus\
+ Barosaurus\
+ Barapasaurus\
+ Camarasaurus\
+ Anchisaurus\
+ Amygdalodon\
+ Ammosaurus\
+ Allosaurus\
+ Agilisaurus\
+ Apatosaurus\
+ Lapparentosaurus\
+ Hesperosaurus\
+ Camptosaurus\
+ Aardonyx\
+ Archaeopteryx\
+(92 rows)
+\f0\fs26\fsmilli13200 \cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl300\sa66\partightenfactor0
+\ls3\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Jurassic Park was a huge success for us. Now we want to open up a sequel park: Cretaceous Park. This time though, we're a little more organized, and we want to know how much space all these dinosaurs are going to take up. Find the total sum length of all the dinosaurs from the Cretaceous period.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf4 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 SELECT SUM(length) FROM dinos WHERE period = 'Cretaceous';\
+   sum   \
+---------\
+ 1366.45\
+(1 row)
+\f0\fs26\fsmilli13200 \cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl300\sa66\partightenfactor0
+\ls4\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Great news! Our board of investors recently secured us a large island where we can put all the dinosaurs from both Jurassic Park and Cretaceous Park. This new park will be called Juraceous Park, which according to our focus groups really rolls off the tongue. Find all the dinosaurs from either the Jurassic OR Cretaceous periods, and order them by their\'a0
+\f2\fs28 \cb5 species
+\f0\fs26\fsmilli13200 \cb3 \'a0name alphabetically.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf4 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 SELECT name FROM dinos WHERE period = 'Jurassic' OR period = 'Cretaceous' order by name;\
+          name           \
+-------------------------\
+ Aardonyx\
+ Abelisaurus\
+ Achelousaurus\
+ Achillobator\
+ Acrocanthosaurus\
+ Aegyptosaurus\
+ Afrovenator\
+ Agilisaurus\
+ Alamosaurus\
+ Albertaceratops\
+ Albertosaurus\
+ Alectrosaurus\
+ Alioramus\
+ Allosaurus\
+ Alvarezsaurus\
+ Amargasaurus\
+ Ammosaurus\
+ Ampelosaurus\
+ Amygdalodon\
+ Anatotitan\
+ Anchiceratops\
+ Anchisaurus\
+ Ankylosaurus\
+ Anserimimus\
+ Antarctopelta\
+ Antarctosaurus\
+ Apatosaurus\
+ Aragosaurus\
+ Aralosaurus\
+ Archaeoceratops\
+ Archaeopteryx\
+ Archaeornithomimus\
+ Argentinosaurus\
+ Arrhinoceratops\
+ Atlascopcosaurus\
+ Aucasaurus\
+ Austrosaurus\
+ Avaceratops\
+ Avimimus\
+ Bactrosaurus\
+ Bagaceratops\
+ Bambiraptor\
+ Barapasaurus\
+ Barosaurus\
+ Baryonyx\
+ Becklespinax\
+ Beipiaosaurus\
+ Bellusaurus\
+ Borogovia\
+ Brachiosaurus\
+ Brachyceratops\
+ Brachylophosaurus\
+ Brachytrachelopan\
+ Bugenasaura\
+ Buitreraptor\
+ Camarasaurus\
+ Camptosaurus\
+ Carcharodontosaurus\
+ Carnotaurus\
+ Caudipteryx\
+ Cedarpelta\
+ Centrosaurus\
+ Ceratosaurus\
+ Cetiosauriscus\
+ Cetiosaurus\
+ Chaoyangsaurus\
+ Chasmosaurus\
+ Chialingosaurus\
+ Chinshakiangosaurus\
+ Chirostenotes\
+ Chubutisaurus\
+ Chungkingosaurus\
+ Citipati\
+ Coelurus\
+ Compsognathus\
+ Conchoraptor\
+ Confuciusornis\
+ Corythosaurus\
+ Cryolophosaurus\
+ Dacentrurus\
+ Daspletosaurus\
+ Datousaurus\
+ Deinocheirus\
+ Deinonychus\
+ Deltadromeus\
+ Diceratops\
+ Dicraeosaurus\
+ Dilophosaurus\
+ Diplodocus\
+ Dracorex\
+ Dravidosaurus\
+ Dromaeosaurus\
+ Dromiceiomimus\
+ Dryosaurus\
+ Dryptosaurus\
+ Dubreuillosaurus\
+ Edmontonia\
+ Edmontosaurus\
+ Einiosaurus\
+ Elaphrosaurus\
+ Emausaurus\
+ Eolambia\
+ Eotyrannus\
+ Equijubus\
+ Erketu\
+ Erlikosaurus\
+ Euhelopus\
+ Euoplocephalus\
+ Europasaurus\
+ Eustreptospondylus\
+ Fukuiraptor\
+ Fukuisaurus\
+ Gallimimus\
+ Gargoyleosaurus\
+ Garudimimus\
+ Gasosaurus\
+ Gasparinisaura\
+ Gastonia\
+ Giganotosaurus\
+ Gilmoreosaurus\
+ Giraffatitan\
+ Gobisaurus\
+ Gorgosaurus\
+ Goyocephale\
+ Graciliceratops\
+ Gryposaurus\
+ Guanlong\
+ Hadrosaurus\
+ Hagryphus\
+ Haplocanthosaurus\
+ Harpymimus\
+ Hesperosaurus\
+ Heterodontosaurus\
+ Homalocephale\
+ Huayangosaurus\
+ Hylaeosaurus\
+ Hypacrosaurus\
+ Hypselosaurus\
+ Hypsilophodon\
+ Iguanodon\
+ Indosuchus\
+ Ingenia\
+ Irritator\
+ Isisaurus\
+ Janenschia\
+ Jaxartosaurus\
+ Jingshanosaurus\
+ Jinzhousaurus\
+ Jobaria\
+ Juravenator\
+ Kentrosaurus\
+ Khaan\
+ Kotasaurus\
+ Kritosaurus\
+ Lamaceratops\
+ Lambeosaurus\
+ Lapparentosaurus\
+ Leaellynasaura\
+ Leptoceratops\
+ Lesothosaurus\
+ Lexovisaurus\
+ Liaoceratops\
+ Liaoxiornis\
+ Ligabuesaurus\
+ Lophorhothon\
+ Lophostropheus\
+ Lufengosaurus\
+ Lurdusaurus\
+ Magyarosaurus\
+ Maiasaura\
+ Majungatholus\
+ Malawisaurus\
+ Mamenchisaurus\
+ Mapusaurus\
+ Marshosaurus\
+ Masiakasaurus\
+ Massospondylus\
+ Maxakalisaurus\
+ Megalosaurus\
+ Metriacanthosaurus\
+ Microceratops\
+ Micropachycephalosaurus\
+ Microraptor\
+ Minmi\
+ Monolophosaurus\
+ Mononykus\
+ Muttaburrasaurus\
+ Nanotyrannus\
+ Nanshiungosaurus\
+ Nemegtosaurus\
+ Neovenator\
+ Neuquenosaurus\
+ Nigersaurus\
+ Nipponosaurus\
+ Noasaurus\
+ Nodosaurus\
+ Nomingia\
+ Nothronychus\
+ Nqwebasaurus\
+ Omeisaurus\
+ Opisthocoelicaudia\
+ Ornitholestes\
+ Ornithomimus\
+ Orodromeus\
+ Oryctodromeus\
+ Othnielia\
+ Ouranosaurus\
+ Oviraptor\
+ Pachycephalosaurus\
+ Pachyrhinosaurus\
+ Panoplosaurus\
+ Pantydraco\
+ Paralititan\
+ Parasaurolophus\
+ Parksosaurus\
+ Patagosaurus\
+ Pelicanimimus\
+ Pelorosaurus\
+ Pentaceratops\
+ Piatnitzkysaurus\
+ Pinacosaurus\
+ Platyceratops\
+ Pleurocoelus\
+ Podokesaurus\
+ Poekilopleuron\
+ Polacanthus\
+ Prenocephale\
+ Probactrosaurus\
+ Proceratosaurus\
+ Prosaurolophus\
+ Protarchaeopteryx\
+ Protoceratops\
+ Protohadros\
+ Psittacosaurus\
+ Quaesitosaurus\
+ Rebbachisaurus\
+ Rhabdodon\
+ Rhoetosaurus\
+ Rinchenia\
+ Rugops\
+ Saichania\
+ Saltasaurus\
+ Sarcosaurus\
+ Saurolophus\
+ Sauropelta\
+ Saurophaganax\
+ Saurornithoides\
+ Scelidosaurus\
+ Scutellosaurus\
+ Secernosaurus\
+ Segisaurus\
+ Segnosaurus\
+ Seismosaurus\
+ Shamosaurus\
+ Shanag\
+ Shantungosaurus\
+ Shunosaurus\
+ Shuvuuia\
+ Silvisaurus\
+ Sinocalliopteryx\
+ Sinornithosaurus\
+ Sinosauropteryx\
+ Sinraptor\
+ Sinvenator\
+ Sonidosaurus\
+ Spinosaurus\
+ Stegoceras\
+ Stegosaurus\
+ Stenopelix\
+ Struthiomimus\
+ Struthiosaurus\
+ Stygimoloch\
+ Styracosaurus\
+ Suchomimus\
+ Supersaurus\
+ Talarurus\
+ Tanius\
+ Tarbosaurus\
+ Tarchia\
+ Telmatosaurus\
+ Tenontosaurus\
+ Therizinosaurus\
+ Thescelosaurus\
+ Torosaurus\
+ Torvosaurus\
+ Triceratops\
+ Troodon\
+ Tsagantegia\
+ Tsintaosaurus\
+ Tuojiangosaurus\
+ Tylocephale\
+ Tyrannosaurus\
+ Udanoceratops\
+ Unenlagia\
+ Urbacodon\
+ Utahraptor\
+ Valdosaurus\
+ Velociraptor\
+ Vulcanodon\
+ Wuerhosaurus\
+ Yandusaurus\
+ Yangchuanosaurus\
+ Yimenosaurus\
+ Yingshanosaurus\
+ Yinlong\
+ Yuanmousaurus\
+ Yunnanosaurus\
+ Zalmoxes\
+ Zephyrosaurus\
+ Zuniceratops\
+(310 rows)
+\f0\fs26\fsmilli13200 \cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl300\sa66\partightenfactor0
+\ls5\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Saurischians are the "lizard hipped" order of dinosaurs, and one of the two main branches. All carnivorous dinosaurs are Saurischians, but not all Saurischians are carnivorous. Find all the dinosaurs from the\'a0
+\f2\fs28 \cb5 t_order
+\f0\fs26\fsmilli13200 \cb3 \'a0Saurischia that are Herbivorous.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf4 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 SELECT name FROM dinos WHERE t_order = 'Saurischia' AND diet = 'Herbivorous';\
+        name         \
+---------------------\
+ Yuanmousaurus\
+ Yimenosaurus\
+ Vulcanodon\
+ Supersaurus\
+ Sonidosaurus\
+ Seismosaurus\
+ Saltasaurus\
+ Rebbachisaurus\
+ Quaesitosaurus\
+ Shunosaurus\
+ Rhoetosaurus\
+ Plateosaurus\
+ Pelorosaurus\
+ Patagosaurus\
+ Pantydraco\
+ Paralititan\
+ Datousaurus\
+ Pleurocoelus\
+ Opisthocoelicaudia\
+ Omeisaurus\
+ Nigersaurus\
+ Neuquenosaurus\
+ Nemegtosaurus\
+ Mussaurus\
+ Maxakalisaurus\
+ Malawisaurus\
+ Mamenchisaurus\
+ Lufengosaurus\
+ Magyarosaurus\
+ Ligabuesaurus\
+ Jobaria\
+ Jingshanosaurus\
+ Janenschia\
+ Isisaurus\
+ Hypselosaurus\
+ Kotasaurus\
+ Guaibasaurus\
+ Giraffatitan\
+ Europasaurus\
+ Haplocanthosaurus\
+ Erketu\
+ Euhelopus\
+ Diplodocus\
+ Dicraeosaurus\
+ Chubutisaurus\
+ Chinshakiangosaurus\
+ Cetiosaurus\
+ Cetiosauriscus\
+ Brachytrachelopan\
+ Brachiosaurus\
+ Bellusaurus\
+ Barosaurus\
+ Barapasaurus\
+ Austrosaurus\
+ Camarasaurus\
+ Aragosaurus\
+ Antarctosaurus\
+ Anchisaurus\
+ Amygdalodon\
+ Ampelosaurus\
+ Amargasaurus\
+ Ammosaurus\
+ Alamosaurus\
+ Apatosaurus\
+ Lapparentosaurus\
+ Aardonyx\
+ Argentinosaurus\
+ Aegyptosaurus\
+(68 rows)
+\f0\fs26\fsmilli13200 \cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl300\sa66\partightenfactor0
+\ls6\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Dinosaur names are hard to remember. Find the shortest dinosaur, and rename it\'a0
+\f3\b Shortie
+\f0\b0 .\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf4 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 UPDATE dinos SET name='Shortie' WHERE length= (SELECT MIN(length) FROM dinos);\
+UPDATE 1\
+dinosaurs=# SELECT * FROM dinos WHERE name = 'Shortie';\
+ id  |  name   |                                                                                                                            taxonomy                                                                                                                            |  species  | length |   period   |    diet     |        created_at         |         updated_at         |  t_order   \
+-----+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+--------+------------+-------------+---------------------------+----------------------------+------------\
+ 160 | Shortie | Dinosauria, Saurischia, Theropoda, Neotherapoda, Tetanurae, Avetherapoda, Coelurosauria, Tyrannoraptora, Maniraptoriformes, Maniraptora, Paraves, Eumaniraptoria, Avialae, Ornithurae, Avibrevicauda, Pygostylia, Ornithathoraces, Enantiornithes, Liaoxiornis | Delicatus |   0.08 | Cretaceous | Carnivorous | 2017-03-24 18:56:22.64813 | 2017-03-24 18:57:00.236074 | Saurischia\
+(1 row)
+\f0\fs26\fsmilli13200 \cf2 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \outl0\strokewidth0 \strokec2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl300\sa66\partightenfactor0
+\ls7\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 It's the first day of Dino School, and we're doing roll call. Find the alphabetically first dinosaur, so we can make sure they're present for class.
+\f1\fs22 \cf4 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+SELECT name FROM dinos order by name;\
+          name           \
+-------------------------\
+ Aardonyx}
